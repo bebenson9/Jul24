@@ -8,7 +8,7 @@ library(ggsci)
 gs4_deauth()
 
 sheet='https://docs.google.com/spreadsheets/d/1ttWfRVH5iyyZOFYSU0syy5luj5IRlbYjUIMC8jbcf2I/edit?usp=sharing'
-col_typres='cnniininnnnnnccc'
+col_types='cnniininnnnnnccc'
 range='data'
 
 corals=read_sheet(sheet,col_types,range,na="NA")
